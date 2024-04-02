@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+}
+
+#entirePage {
+    height: 100vh;
+    background-color: blue;
+}
+
+#imageSection {
+    height: 500px;
+    width: 500px;
+    background-color: white;
+}

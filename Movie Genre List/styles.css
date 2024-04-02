@@ -1,0 +1,47 @@
+
+label {
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+input {
+    margin-left: 200px;
+    margin-top: 3px;
+}
+
+.page {
+    background-image: linear-gradient(to right, blue, black);
+    height: 500px;
+    width: calc((100% - 100px) / .9);
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.box{
+    background-color: white;
+    margin-top: 120px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#submitButton {
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 220px;
+
+}
+
+#title{
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+#horrorOption{
+    margin-top:15px;
+}
