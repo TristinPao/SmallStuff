@@ -8,7 +8,15 @@ function updateOccupation() {
 }
 
 function gitHubButton1() {
-    window.location.href = "https://github.com/";
+    window.open("https://github.com/TristinPao/SmallStuff/tree/main/2D%20Game%20Demo");
+}
+
+function gitHubButton2() {
+    window.open("https://github.com/TristinPao/SmallStuff/tree/main/Python%20Testing");
+}
+
+function gitHubButton3() {
+    window.open("https://github.com/TristinPao/SmallStuff/tree/main/Dog%20API%20Test");
 }
 
 setInterval(updateOccupation, 1500);

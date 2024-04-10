@@ -1,5 +1,3 @@
-console.log("Hello")
-
 const dogImageDiv = document.getElementById("dogImage")
 const imgRefresh = document.getElementById("refresh")
 
@@ -13,4 +11,4 @@ fetch('https://dog.ceo/api/breeds/image/random')
 }
 
 imgRefresh.onclick = () =>  getNewDog()
-console.log("Clicked: get new dog")
+// console.log("Clicked: Got new dog")
