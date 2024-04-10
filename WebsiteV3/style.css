@@ -307,9 +307,9 @@ input, textarea{
 
 #resumeFrame {
     margin: auto;
-    margin-top: 50px;
-    width: 70%;
-    height: 90%;
+    margin-top: 100px;
+    width: 65%;
+    height: 75%;
     border-radius: 20px;
     background-color: black;
     box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
