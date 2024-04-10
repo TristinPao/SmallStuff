@@ -1,0 +1,406 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    font-family: Montserrat;
+    transition: .5s;
+    font-size: 15px;
+}
+
+button {
+    font-family: Montserrat;
+}
+
+p {
+    color: black;
+}
+
+label {
+    float: left;
+    width: 100px;
+    clear: left;
+    padding: 10px 0px 0px 20px;
+}
+
+input, textarea{
+    display: block;
+    padding: auto;
+    margin: 20px 0px 0px 0px;
+}
+
+.websiteSubText {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-size: 30px;
+    font-family: Montserrat;
+}
+
+#pageDiv {
+    height: 100%;
+    background-color: black;
+}
+
+#contentDiv {
+    height: 100%;
+    width: 98%;
+    margin-left: 1%;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto
+}
+
+#navDiv {
+    justify-content: right;
+    width: 98%;
+    position: fixed;
+    height: 30px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+#homeNav {
+    text-align: right;
+    width: 100%;
+}
+
+#homeButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+#homeButton:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#projectNav {
+    text-align: right;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+#dropButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 120px;
+    color: black;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+#dropdownProjects {
+    background-color: rgb(220, 220, 220);
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+#dropdownProjects a {
+    color: black;
+    padding: 20px 40px;
+    display: block;
+}
+
+#dropdownProjects a:hover {
+    background-color: #a3a3a3;
+    transition: .5s;
+}
+
+#projectNav:hover #dropdownProjects{
+    display:block;
+}
+
+#projectNav:hover #dropButton {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#resumeNav {
+    text-align: right;
+    width: 100%;
+}
+
+#resumeButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+#resumeButton:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#contactNav {
+    text-align: right;
+    width: 100%;
+}
+
+#contactButton {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+#contactButton:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+#homeDiv {
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#titleSection{
+    display: grid;
+    grid-template-rows: 10% 45% 45%;
+}
+
+#logoSection {
+    font-size: 30px;
+}
+
+#titleName {
+    padding: 290px 0px 0px 150px;
+}
+
+#titleJava {
+    padding: 0px 0px 0px 160px;
+}
+
+#imageSection {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+#profilePictureSection {
+    margin: 200px 0px 0px 150px;
+}
+
+#profilePic {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
+}
+
+#languageSection{
+    margin: 0px 0px 0px 20%
+}
+
+.languageIcon {
+    width: 50px;
+    height: 50px;
+    margin: 20px 70px 0px 0px;
+}
+
+#resumeDiv {
+    height: 100vh;
+    background-color:  white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#resumeFrame {
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+    height: 90%;
+    border-radius: 20px;
+    background-color: black;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
+}
+#resumeInfoDiv {
+    padding-left: 40px;
+    margin: auto;
+}
+
+#fakeResume {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    
+}
+
+#projectDiv1 {
+    height: 100vh;
+    background-color:  white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#projectSectionDiv1 {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+#projectVideoSection {
+    margin: auto;
+    margin-top: 200px;
+}
+
+#projectFrame1 {
+    width: 877px;
+    height: 500px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
+}
+
+#projectFrame1:hover {
+    width: 910px;
+    height: 520px;
+}
+
+#gameVideo1 {
+    margin: 5px;
+    height: 98%;
+    border-radius: 20px;
+}
+
+#linkSectionDiv {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: 250px;
+}
+
+.gitHubButton {
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    margin-right: 50px;
+}
+
+.gitHubButton:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.projectInfoDiv {
+    margin: 350px 0px 0px 0px;
+}
+
+#projectDiv2 {
+    height: 100vh;
+    background-color:  white;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+#projectSectionDiv2 {
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+#projectFrame2 {
+    width: 877px;
+    height: 270px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
+}
+
+#gameVideo2 {
+    margin: 5px;
+    margin-top: 8px ;
+    width: 850px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#linkSectionDiv2 {
+    margin: 300px 0px 0px 420px;
+}
+
+#projectInfoDiv2 {
+    margin: 350px 0px 0px 0px;
+}
+
+#projectDiv3 {
+    height: 100vh;
+    background-color:  white;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#projectSectionDiv3 {
+    display: grid;
+    grid-template-rows: 70% 30%;
+}
+
+#projectFrame3 {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 170px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
+}
+
+#projectFrame3:hover {
+    width: 620px;
+    height: 620px;
+}
+
+#gameVideo3 {
+    margin: 5px;
+    height: 98%;
+    border-radius: 20px;
+}
+#linkSectionDiv3 {
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 275px;
+}
+
+#contactDiv {
+    height: 100vh;
+    background-color: white;
+}
+
+#submissionForm {
+    height: 500px;
+}
