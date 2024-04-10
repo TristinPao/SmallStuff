@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tristin's Website</title>
+</head>
+<body>
+    <div id="pageDiv">
+        <div id="contentDiv">
+            <div id='navDiv'>
+                <div id="homeNav">
+                    <button id="homeButton"onClick='window.location="#homeDiv"'>Home</button>
+                </div>
+                <div id="resumeNav">
+                    <button id="resumeButton" onclick='window.location="#resumeDiv"'>Resume</button>
+                </div>
+                <div id="projectNav">
+                    <button id="dropButton">Projects &dArr;	</button>
+                    <div id="dropdownProjects">
+                      <a href="#projectDiv1">2D Game</a>
+                      <a href="#projectDiv2">Currency Converter</a>
+                      <a href="#projectDiv3">Random Dog Generator</a>
+                    </div>
+                  </div>
+                <div id="contactNav">
+                    <button id="contactButton" onclick='window.location="#contactDiv"'>Contact</button>
+                </div>
+            </div>
+            <div id="homeDiv">
+                <div id="titleSection">
+                    <h1 id="logoSection"></h1>
+                    <div id="titleName">
+                        <h1 style="font-size: 5vw;">Tristin Pao's</h1>
+                        <h1 style="font-size: 2vw; padding-left: 10px;">Developer Portfolio</h1>
+                    </div>
+                    <div id="titleJava">
+                        <h1 style="font-size: 1vw; display: inline-block;">Your Average Aspiring </h1> <h1 id="ocuID"style="font-size: 1vw; display: inline-block;">[Programmer]</h1>
+                    </div>
+                </div>  
+                <div id="imageSection">  
+                    <div id="profilePictureSection">
+                        <img id="profilePic" src="Resources/Images/black guy cartoon 2.jpeg">
+                    </div>
+                    <div class="iconsFirst">
+                        <img class="languageIcon2" src="Resources/Images/HTML Icon.png">
+                        <img class="languageIcon2" src="Resources/Images/CSS Icon.png">
+                        <img class="languageIcon2" src="Resources/Images/Javascript Icon.png">
+                        <img class="languageIcon2" src="Resources/Images/Python Icon.png">
+                    </div>
+                </div>
+            </div>
+
+            <div id="resumeDiv">
+                <div id="resumeInfoDiv">
+                    <div id="infoFrame">
+                    <h1 class="websiteSubText" style="font-size: 50px;"><u>Previous Experience</u></h1>
+                    <br>
+                    <h2 class="websiteSubText" style="font-size: 20px;">This showcase aims to highlight my skills and achievements from my past expereince, demonstrating my suitability for opportunities as well as my ability for growth and prowess to learn and take on new challenges.</h2>
+                    <br>
+                    <br>
+                    <h2 class="websiteSubText" style="font-size: 15px; text-align:end;">Last Updated: January 24, 2024</h2>
+                    </div>
+                </div>
+                <div id="resumeSectionDiv">
+                    <div id="resumeFrame">
+                        <img id="fakeResume" src="Resources/Images/senior-programmer-resume-example.png">
+                    </div>
+                </div>
+
+            </div>
+            <div id="projectDiv1">
+                <div id="projectSectionDiv1">
+                    <div id="projectVideoSection">
+                        <div id="projectFrame1">
+                            <video id="gameVideo1" src="Resources/Video/2D Game Platform.mp4" muted loop autoplay></video>
+                        </div>
+                    </div>
+                    <div class="linkSectionDiv1"> 
+                        <button class="gitHubButton" onclick="gitHubButton1()">Github Code</button>
+                        <img class="languageIcon1" src="Resources/Images/HTML Icon.png">
+                        <img class="languageIcon1" src="Resources/Images/CSS Icon.png">
+                        <img class="languageIcon1" src="Resources/Images/Javascript Icon.png">
+                   </div> 
+                </div>
+                <div class="projectInfoDiv">
+                        <h1 style="text-align: center;"><u>2D Game</u></h1>
+                        <h2 style="text-align: center; padding-right: 20px;">This 2D Game involve controlling a character with the use of "W, A, S, D" keys to navigate this level with a single obstacles. To progress interact with the door to go to the next level.</h2>
+                </div>
+            </div>
+            <div id="projectDiv2">
+                <div id="projectInfoDiv2">
+                    <h1 style="text-align: center;"><u>Currency Converter</u></h1>
+                    <h2 style="text-align: center; padding-left: 20px;">The currency converter program takes user input for an amount in one currency and the target currency, then retrieves the current exchange rate from a reliable source, and calculates the equivalent amount in the target currency before displaying the result to the user.</h2>
+                </div>
+                <div id="projectSectionDiv2">
+                    <div id="projectVideoSection2">
+                        <div id="projectFrame2">
+                            <video id="gameVideo2" src="Resources/Video/Python Currency Converter.mp4" muted loop autoplay></video>
+                        </div>
+                    </div>
+                        <div class="linkSectionDiv2">
+                            <button class="gitHubButton" onclick="gitHubButton2()">Github Code</button>
+                            <img class="languageIcon" src="Resources/Images/Python Icon.png">
+                        </div>
+                </div>
+            </div>
+
+            <div id="projectDiv3">
+                <div id="projectSectionDiv3">
+                    <div id="projectVideoSection3">
+                        <div id="projectFrame3">
+                            <video id="gameVideo3" src="Resources/Video/Random Dog Generator.mp4" muted loop autoplay></video>
+                        </div>
+                </div>
+                <div class="linkSectionDiv3">
+                    <button class="gitHubButton" onclick="gitHubButton3()">Github Code</button>
+                    <img class="languageIcon3" src="Resources/Images/HTML Icon.png">
+                    <img class="languageIcon3" src="Resources/Images/CSS Icon.png">
+                    <img class="languageIcon3" src="Resources/Images/Javascript Icon.png">
+                </div>  
+                </div>
+                <div class="projectInfoDiv">
+                        <h1 style="text-align: center;"><u>Random Dog Generator</u></h1>
+                        <h2 style="text-align: center; padding-right: 20px;">The random dog program generates a new random dog image upon each click of the button, fetching images from an online database of diverse dog breeds. Users can enjoy a variety of adorable dog pictures with just a click of a button</h2>
+                </div>
+            </div>
+
+            <div id="contactDiv">
+                <div style="margin: auto; text-align: center;">
+                    <table>
+                        <tr>
+                            <th style="font-size: 90px;">
+                                <u>Contact Me</u>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="https://twitter.com/?lang=en" target="_blank">Twitter</a></td>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="https://discord.com/" target="_blank">Discord</a></td>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="mailto:TristinPao98@outlook.com" target="_blank">Outlook</a></td>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="https://ca.linkedin.com/" target="_blank">LinkedIn</a></td>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="https://github.com/TristinPao" target="_blank">GitHub</a></td>
+                        </tr>
+                        <tr>
+                            <td><a style="font-size: 30px;" href="tel:0000">Call Me</a></td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="containerFlex">
+                    <form id="submissionForm">
+                        <label>Full Name</label>
+                        <br>
+                        <input type="text" maxlength="100" size="40px" required>
+                        <br>
+                        <label>Rating</label>
+                        <br>
+                        <input type="range" min="1" max="10" required>
+                        <br>
+                        <label>Comment</label>
+                        <br>
+                        <textarea type="text" placeholder="Questions Or Concerns" cols="30" rows="4" required></textarea>
+                        <br>
+                        <button type="submit">Submit Form</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
