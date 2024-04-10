@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Balance";
+    src: url();
+}
+
+.center {
+    font-family: Balance;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    border: solid;
+    border-width: 3px;
+    /* background-image: linear-gradient(to bottom, black, red); */
+    display: grid;
+    grid-template-rows: 20% 50% 30%;
+}
+
+.Title {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#refresh {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.page {
+    height: 100vh;
+    text-align: center;
+}
