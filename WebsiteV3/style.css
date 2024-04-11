@@ -52,11 +52,6 @@ input, textarea{
     font-family: Montserrat;
 }
 
-#pageDiv {
-    height: 100%;
-    background-color: black;
-}
-
 #contentDiv {
     height: 100%;
     width: 98%;
@@ -482,10 +477,25 @@ input, textarea{
     justify-content: end;
     text-align: center;
     box-shadow: -15px 15px 10px rgba(0, 0, 0, .6);
-
 }
 
+#submitButton {
+    background-color: rgb(60, 177, 255);
+    font-size: 30px;
+    width: 240px;
+    margin: 20px 0px 0px 0px;
+    height: 50px;
+}
 
+#submitButton:hover {
+    cursor: pointer;
+    background-color: rgb(42, 130, 189);
+}
+
+#submitButton:active {
+    width: 230px;
+    height: 45px;
+}
 
 
 

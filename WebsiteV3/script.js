@@ -20,3 +20,6 @@ function gitHubButton3() {
 }
 
 setInterval(updateOccupation, 1500);
+
+prompt("How did you find out about this site?")
+alert("Please Answer Form at The Bottom!")

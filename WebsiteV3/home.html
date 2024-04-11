@@ -31,6 +31,7 @@
                     <button id="contactButton" onclick='window.location="#contactDiv"'>Contact</button>
                 </div>
             </div>
+
             <div id="homeDiv">
                 <div id="titleSection">
                     <h1 id="logoSection"></h1>
@@ -88,14 +89,17 @@
                    </div> 
                 </div>
                 <div class="projectInfoDiv">
+                        <img style="float: right; padding-bottom: 90px;" src="Resources/Images/Vertical-bar.png" alt="">
                         <h1 style="text-align: center;"><u>2D Game</u></h1>
-                        <h2 style="text-align: center; padding-right: 20px;">This 2D Game involve controlling a character with the use of "W, A, S, D" keys to navigate this level with a single obstacles. To progress interact with the door to go to the next level.</h2>
+                        <h2 style="text-align: center; padding-right: 0px;">This 2D Game involve controlling a character with the use of "W, A, S, D" keys to navigate this level with a single obstacles. To progress interact with the door to go to the next level.</h2>
                 </div>
             </div>
+
             <div id="projectDiv2">
                 <div id="projectInfoDiv2">
+                    <img style="float: left; padding-bottom: 90px;" src="Resources/Images/Vertical-bar.png" alt="">
                     <h1 style="text-align: center;"><u>Currency Converter</u></h1>
-                    <h2 style="text-align: center; padding-left: 20px;">The currency converter program takes user input for an amount in one currency and the target currency, then retrieves the current exchange rate from a reliable source, and calculates the equivalent amount in the target currency before displaying the result to the user.</h2>
+                    <h2 style="text-align: center; padding-left: 100px;">The currency converter program takes user input for an amount in one currency and the target currency, then retrieves the current exchange rate from a reliable source, and calculates the equivalent amount in the target currency before displaying the result to the user.</h2>
                 </div>
                 <div id="projectSectionDiv2">
                     <div id="projectVideoSection2">
@@ -125,8 +129,9 @@
                 </div>  
                 </div>
                 <div class="projectInfoDiv">
+                        <img style="float: right; padding-bottom: 90px;" src="Resources/Images/Vertical-bar.png" alt="">
                         <h1 style="text-align: center;"><u>Random Dog Generator</u></h1>
-                        <h2 style="text-align: center; padding-right: 20px;">The random dog program generates a new random dog image upon each click of the button, fetching images from an online database of diverse dog breeds. Users can enjoy a variety of adorable dog pictures with just a click of a button</h2>
+                        <h2 style="text-align: center; padding-right: 100px;">The random dog program generates a new random dog image upon each click of the button, fetching images from an online database of diverse dog breeds. Users can enjoy a variety of adorable dog pictures with just a click of a button</h2>
                 </div>
             </div>
 
@@ -139,40 +144,40 @@
                             </th>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="https://twitter.com/?lang=en" target="_blank">Twitter</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/Twitter Icon.png" alt=""><a style="font-size: 30px;" href="https://twitter.com/?lang=en" target="_blank">Twitter</a></td>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="https://discord.com/" target="_blank">Discord</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/Discord Icon.png"><a style="font-size: 30px;" href="https://discord.com/" target="_blank">Discord</a></td>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="mailto:TristinPao98@outlook.com" target="_blank">Outlook</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/Outlook Icon.png"><a style="font-size: 30px;" href="mailto:TristinPao98@outlook.com" target="_blank">Outlook</a></td>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="https://ca.linkedin.com/" target="_blank">LinkedIn</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/LinkedIn Icon.png"><a style="font-size: 30px;" href="https://ca.linkedin.com/" target="_blank">LinkedIn</a></td>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="https://github.com/TristinPao" target="_blank">GitHub</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/GitHub Icon.png"><a style="font-size: 30px;" href="https://github.com/TristinPao" target="_blank">GitHub</a></td>
                         </tr>
                         <tr>
-                            <td><a style="font-size: 30px;" href="tel:0000">Call Me</a></td>
+                            <td><img style="width: 25px; height:25px;" src="Resources/Images/Phone Icon.png"><a style="font-size: 30px;" href="tel:0000">Call Me</a></td>
                         </tr>
                     </table>
                 </div>
                 <div id="containerFlex">
-                    <form id="submissionForm">
+                    <form name="userForm"id="submissionForm">
                         <label>Full Name</label>
                         <br>
-                        <input type="text" maxlength="100" size="40px" required>
+                        <input type="text" maxlength="100" size="30px" name="userForm" required>
                         <br>
                         <label>Rating</label>
                         <br>
-                        <input type="range" min="1" max="10" required>
+                        <input type="range" min="1" max="10" name="userForm" required>
                         <br>
                         <label>Comment</label>
                         <br>
-                        <textarea type="text" placeholder="Questions Or Concerns" cols="30" rows="4" required></textarea>
+                        <textarea type="text" placeholder="Questions Or Concerns" cols="30" rows="4" name="userForm" required></textarea>
                         <br>
-                        <button type="submit">Submit Form</button>
+                        <button id="submitButton"type="submit" name="userForm">Submit Form</button>
                     </form>
                 </div>
             </div>
